@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a2b2d54248e199f94b3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "masa",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-915071687ba1ea2b6fe7.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6b41f8c581ef556181c9.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-a801c82934b8166dc8f8.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-16452f716984af75fb82.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa-Debug-dd09b534cd3c30b54df5.json",
+					"name" : "appmasa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_autogen-Debug-4188dddcf67f5e7f387f.json",
+					"name" : "appmasa_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_autogen_timestamp_deps-Debug-d7c6de5a81ddf8d85d9c.json",
+					"name" : "appmasa_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_qmlimportscan-Debug-dd38c6ebbc896d8730bd.json",
+					"name" : "appmasa_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_qmllint-Debug-5e98072dd51ac3301692.json",
+					"name" : "appmasa_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_qmllint_json-Debug-c285e11b9ca22fd3c220.json",
+					"name" : "appmasa_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_qmllint_module-Debug-0e1fc34ac21608456fd5.json",
+					"name" : "appmasa_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_qmltyperegistration-Debug-0c148fdfa15e82992fee.json",
+					"name" : "appmasa_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmasa_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmasa_tooling-Debug-1bfa2cad05165001f797.json",
+					"name" : "appmasa_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nawar/OneDrive/Tiedostot/masa/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/nawar/OneDrive/Tiedostot/masa"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

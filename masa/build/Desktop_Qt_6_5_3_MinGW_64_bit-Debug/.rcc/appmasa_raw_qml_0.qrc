@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/masa/">
+    <file alias="Main.qml">C:/Users/nawar/OneDrive/Tiedostot/masa/Main.qml</file>
+    <file alias="ajsrp50x422.jpg">C:/Users/nawar/OneDrive/Tiedostot/masa/ajsrp50x422.jpg</file>
+  </qresource>
+</RCC>
+

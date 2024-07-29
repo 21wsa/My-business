@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6f621a3be313976bdcfb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mony1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-7e59c2bc0ce87515c5b5.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-61eb0ce6c3804a2f0b2a.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-b57161426e3451d54b70.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-608ddedac4433e4a1b5b.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1-Debug-ab0d42a078158c507efa.json",
+					"name" : "appMony1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_autogen-Debug-ece9153bf7fc3de92ca1.json",
+					"name" : "appMony1_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_autogen_timestamp_deps-Debug-635a93545b65162b00a3.json",
+					"name" : "appMony1_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_qmlimportscan-Debug-32b7b836d3737dc97b8b.json",
+					"name" : "appMony1_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_qmllint-Debug-ab117b300e27db938046.json",
+					"name" : "appMony1_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_qmllint_json-Debug-7e761b60a48cbc3bcbc7.json",
+					"name" : "appMony1_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_qmllint_module-Debug-8e74bf3e5cacd4cc0d2e.json",
+					"name" : "appMony1_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_qmltyperegistration-Debug-1be365c52cfcad567ad3.json",
+					"name" : "appMony1_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMony1_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMony1_tooling-Debug-51fa078c08ff1dbca531.json",
+					"name" : "appMony1_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nawar/OneDrive/Tiedostot/Mony1/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/nawar/OneDrive/Tiedostot/Mony1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,5 @@
+module Mony1
+typeinfo appMony1.qmltypes
+prefer :/Mony1/
+Main 1.0 Main.qml
+

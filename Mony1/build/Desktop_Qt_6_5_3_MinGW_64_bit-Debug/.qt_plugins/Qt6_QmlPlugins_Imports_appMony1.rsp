@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/nawar/OneDrive/Tiedostot/Mony1
+-cmake-output
+-output-file
+C:/Users/nawar/OneDrive/Tiedostot/Mony1/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appMony1.cmake
+-importPath
+C:/Users/nawar/OneDrive/Tiedostot/Mony1/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Mony1
+-importPath
+C:/Users/nawar/OneDrive/Tiedostot/Mony1/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.5.3/mingw_64/./qml
+-qrcFiles
+C:/Users/nawar/OneDrive/Tiedostot/Mony1/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmake_Mony1.qrc
+C:/Users/nawar/OneDrive/Tiedostot/Mony1/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/appMony1_raw_qml_0.qrc

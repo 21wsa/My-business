@@ -1,0 +1,159 @@
+/* General Settings */
+body {
+    font-family: 'Arial', sans-serif; /* Use a simple and modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light neutral background */
+}
+
+/* Website Header */
+header {
+    background-color: #ff6f00; /* Dark orange background for the header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #e65100; /* Darker border at the bottom of the header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for the header */
+}
+
+/* Contact Information Styling */
+.contact-info {
+    margin-top: 10px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Transition effect for color change */
+}
+
+.contact-info a:hover {
+    color: #ffd54f; /* Light yellow color on hover */
+}
+
+/* Main Content Area */
+main {
+    padding: 20px;
+}
+
+/* Styling for Login Form and Admin Interface */
+.login-form, .admin-content {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow for the form */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border for the form */
+}
+
+/* Styling for Fields and Buttons */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold; /* Make the text bold for emphasis */
+    color: #333; /* Dark text color */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 14px; /* Increase size for better spacing */
+    margin-top: 5px;
+    border: 1px solid #bbb; /* Lighter border color */
+    border-radius: 8px; /* Larger rounded corners */
+    box-sizing: border-box; /* Ensure padding does not cause overflow */
+}
+
+/* Enhanced button styling */
+button {
+    margin-top: 15px;
+    padding: 14px 28px; /* Increase button size */
+    background: linear-gradient(90deg, #56ab2f, #a8e063); /* Gradient green background */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Transition effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+button:hover {
+    background: linear-gradient(90deg, #2c6d28, #56ab2f); /* Darker green gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+button:active {
+    background: linear-gradient(90deg, #1b5e20, #2c6d28); /* Darker green gradient on active */
+    transform: scale(1); /* Return to original size on active */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Return to original shadow on active */
+}
+
+/* Product List Styling */
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the products */
+    gap: 20px; /* Space between items */
+    margin-top: 20px; /* Top margin for product list */
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 280px; /* Fixed width for product */
+    background-color: #fff; /* White background for product */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+    transition: box-shadow 0.3s, transform 0.3s; /* Transition effect for interaction */
+    border: 2px solid #388e3c; /* Green border for product */
+}
+
+.product:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+    transform: scale(1.03); /* Slightly enlarge product on hover */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px; /* Rounded corners for image */
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 1.4em;
+    color: #ff6f00; /* Dark orange color for titles */
+}
+
+.product p {
+    color: #555; /* Description text color */
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* General Improvements */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, .login-form, .admin-content {
+    border-radius: 12px;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5); /* Shadow around the button on focus */
+}

@@ -1,0 +1,73 @@
+import QtQuick 
+import QtQuick.Controls 
+import QtQuick.Layouts 
+import QtQuick.Window 
+import QtQuick.Controls.Material 
+import Qt.labs.settings 
+import QtNetwork 
+
+ApplicationWindow {
+    visible: true
+    width: 400
+    height: 400
+    title: "Payment and Balance Calculator"
+
+    property bool darkTheme: true
+    property string currentLanguage: "en" // Default language
+    property string currentCurrency: "EUR" // Default currency
+    property var currencySymbols: {
+        "EUR": "€",
+        "USD": "$",
+        "GBP": "£",
+        "JPY": "¥",
+        "EGP": "ج.م" // Egyptian Pound symbol
+    }
+    property var currencyRates: {
+        "EUR": 1,
+        "USD": 1.1162,
+        "GBP": 0.8444,
+        "JPY": 161.24,
+        "EGP": 30.75,
+        // Add other currencies here
+    }
+
+    NetworkAccessManager {
+        id: networkManager
+    }
+
+    Timer {
+        interval: 3600000 // Update every hour (3600000 milliseconds)
+        running: true
+        repeat: true
+        onTriggered: updateCurrencyRates()
+    }
+
+    function updateCurrencyRates() {
+        var request = new QNetworkRequest();
+        request.url = "https://www.suomenpankki.fi/fi/Tilastot/valuuttakurssit/";
+        var reply = networkManager.get(request);
+        reply.finished.connect(function() {
+            if (reply.error == QNetworkReply.NoError) {
+                var data = reply.readAll().toString();
+                parseCurrencyRates(data);
+            } else {
+                console.log("Error fetching currency rates: " + reply.errorString());
+            }
+            reply.deleteLater();
+        });
+    }
+
+    function parseCurrencyRates(data) {
+        // Logic to parse currency data from HTML
+        var regex = /([A-Z]{3})\s+([0-9,\.]+)/g;
+        var match;
+        while ((match = regex.exec(data)) !== null) {
+            var currency = match[1];
+            var rate = parseFloat(match[2].replace(",", "."));
+            currencyRates[currency] = rate;
+        }
+        console.log("Currency rates updated:", currencyRates);
+    }
+
+    // User interface and other code...
+}
